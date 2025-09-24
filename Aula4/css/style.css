@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Cabeçalho */
+header {
+    background-color: black;
+    color: rgb(253, 253, 253);
+    text-align: center;
+    padding: 20px;
+}
+
+/* Menu de Navegação */
+nav{
+    background-color: rgb(107, 106, 106);
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: aliceblue;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: inderline;
+    color: aqua;
+}
+
+/* Layout principal */
+main{
+    display:flex;
+    margin: 20px;
+    gap: 20px;
+}
+
+/* Seção principal */
+section{
+    flex: 3;
+}
+
+article{
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+
+}
+
+/* Botao */
+.botao {
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.botao:hover{
+    background-color: rgb(85, 85, 168);
+}
+/* Barra lateral aside*/
+aside{
+    flex: 1;
+    background-color: rgb(226, 225, 159);
+    padding: 15px;
+    border: 1px solid #ccc   
+}
+
+h2{
+    color: black;
+}
+
+p{
+    color: dimgrey;
+    line-height: 1.5;
+}
+
+/* Rodape */
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 15;
+}
+
+footer p{
+    color: white
+}

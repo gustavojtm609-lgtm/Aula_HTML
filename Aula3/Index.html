@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+</head>
+<style>
+    body{
+        text-align: center;
+    }
+    .bloco1, .bloco2, .bloco3{
+        display: inline-block;
+        width: 150px;
+        height: 150px;
+
+    }
+
+    .bloco1{
+        background-color: #ff00ff;
+    }
+    .bloco2{
+        background-color: #0044cc;
+        opacity: 0.5;
+        position: fixed;
+        top: 10px;
+        left: 300px;
+        z-index: 1;
+    }
+    .bloco3{
+        background-color: #ffdd00;
+        position: fixed;
+        z-index: 2;
+    }
+
+    img{
+        float: right;
+    }
+
+    .paragrafo-baixo{
+        clear:right;
+    }
+
+</style>
+<body>
+    <div class="bloco1">
+        Bloco1
+    </div>
+    <div class="bloco2">
+        Bloco2
+    </div>
+    <div class="bloco3">
+        Bloco3
+    </div>
+    <br>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui quia, totam veniam maiores voluptatum ut error quas consectetur, commodi culpa vel voluptatem distinctio corporis dolorum debitis minima ullam. Voluptates, non?</p>
+    <img src="images.jfif" alt="" width="200 " height="200">
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto rem quos dolorum non id sapiente est accusantium totam animi minus doloremque, qui ut cum libero fugiat nulla ullam molestias ea.</p>
+        <p class="paragrafo-baixo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis voluptates sed eius earum? Quaerat tempora velit laboriosam incidunt consequatur error repudiandae mollitia voluptatum. Ratione eius et autem? Consequuntur, iure expedita!</p>
+    
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #1e2746; /* fundo azul escuro */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .login-box {
+      color: #fff;
+      text-align: center;
+    }
+
+    .login-box h2 {
+      text-align: left;
+      font-size: 22px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
+    }
+
+    .login-box label {
+      display: block;
+      text-align: left;
+      margin: 15px 0 5px;
+      font-size: 14px;
+      color: #ddd;
+    }
+
+    .login-box input {
+      width: 100%;
+      padding: 8px;
+      border: none;
+      border-bottom: 1px solid #ccc;
+      background: none;
+      color: #fff;
+      font-size: 14px;
+      outline: none;
+    }
+
+    .login-box button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 20px;
+      border: none;
+      background-color: #b82e4a; /* vermelho */
+      color: #fff;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .login-box button:hover {
+      background-color: #9a243c;
+    }
+
+    .login-box a {
+      display: block;
+      margin-top: 15px;
+      font-size: 13px;
+      color: #ccc;
+      text-decoration: none;
+    }
+
+    .login-box a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="login-box">
+    <h2>Login</h2>
+    <form>
+      <label for="usuario">Usuário</label>
+      <input type="text" id="usuario" name="usuario" required>
+
+      <label for="senha">Senha</label>
+      <input type="password" id="senha" name="senha" required>
+
+      <button type="submit">login</button>
+
+      <a href="#">Esqueceu a senha?</a>
+    </form>
+  </div>
+
+</body>
+</html>
